@@ -1,0 +1,21 @@
+@media only screen and (max-width: 300px){
+    .imagenes{
+        max-width: 300px;
+        align-items: center;
+    }
+   .subtitulo{
+       min-width: 800px;
+   }
+    }
+    @media screen and (min-width: 300px) {
+        .container {
+          font-size: 25px;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+       .container {
+          font-size: 30px;
+        }
+    }
+
