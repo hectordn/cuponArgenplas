@@ -1,8 +1,9 @@
-@media screen and (max-widht:300px) {
+@media screen and (max-width:300px) {
 .imagenes{
-    max-width: 300vw;
+    max-width: 300px;
     align-items: center;
 } 
+
 .container{
     max-width: 400px;
 }
@@ -13,22 +14,16 @@ h3 {
     width: 100%;
     text-align: center;
 }
-.subtitulo{
-
-}
 h3{
     width: none;
 }
-div {
-    max-width: 400px;
-}
 
 
 }
-@media screen and (min-widht:301px) {
+@media screen and (min-width:301px) {
     .imagenes{
-        display: grid;
-    min-width: 300vw;
+    display: grid;
+    min-width: 300px;
     align-items: center;
 
 } 
