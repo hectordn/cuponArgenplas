@@ -1,28 +1,27 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightblue;
-    /* width: 100%; */
-    padding: 5%;
+    background-color: rgb(236 246 248);
+    padding: 2px;
 }
 
 
 h1 {
-    color: blue;
+    color: rgb(49, 49, 163);
     text-align: center;
 }
 h2{
     color: #fff;
 }
 h3{
-    color: blue;
+    color: rgb(49, 49, 163);
 }
 p{
     text-align: center;
 }
 
 .container{
-    padding: 2px;
+    padding: .5px;
     width: 95%;
     height: auto;
     background: #084408;
@@ -31,7 +30,7 @@ p{
 }
 .boton{
     width: 80%;
-    height: 40px;
+    height: auto;
     background-color: lawngreen;
     padding: 10px;
     text-align: center;
@@ -46,8 +45,55 @@ p{
         text-align: center;
     }
     .imagenes{
-        width: 100%;
-        display: inline;
+        display: inline-block;
         align-items: center;
-        background-size:cover;
+    }
+     .imagen{
+        display: inline-block;
+        margin: auto;
+     }
+ @media screen and (max-width: 400px){
+     .imagenes{
+        display: block;
+        margin: auto;
+     }
+ }
+
+
+ @media screen and (max-width: 300px){
+    img{
+    max-width: 400px;
+    }
+    
+    .container{
+        max-width:350px;
+    }
+    h1{
+        width: none;
+    }
+    h3{
+        width: none;
+    }
+     /* b{
+        font-variant: ;
+    }   
+     */
+    }
+    
+    @media screen and (min-width:301px) {
+    .logos{
+        min-width: 300px;
+        align-items: center;
+        
+    
+    } 
+    .container{
+        min-width:auto;
+        margin: auto;
+        border: 1px;
+    }
+    h1{
+        min-width: none;
+    }
+    
     }

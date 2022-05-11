@@ -1,41 +1,39 @@
-@media screen and (max-width:300px) {
+@media screen and (max-width:500px){
+.logos{
 .imagenes{
-    max-width: 300px;
-    align-items: center;
-} 
+    max-width: 2000px;
+}} 
 
 .container{
-    max-width: 400px;
+    max-width:350px;
 }
 h1{
     width: none;
-}
-h3 {
-    width: 100%;
-    text-align: center;
 }
 h3{
     width: none;
 }
-
+b{
+    font-variant: inherit;
+}
 
 }
+
 @media screen and (min-width:301px) {
-    .imagenes{
-    display: grid;
-    min-width: 300px;
+.logos{
+    display: inline;
+    max-width: 300px;
     align-items: center;
+    
 
 } 
 .container{
-    max-width: 400px;
-
+    min-width:auto;
+    margin: auto;
+border: 1px;
 }
 h1{
     min-width: none;
-}
-h3 {
-    max-width: 350px;
 }
 
 }
